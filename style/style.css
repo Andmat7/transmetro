@@ -1,0 +1,148 @@
+
+.ui-footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+
+
+}
+
+
+.footer{
+	text-align:center;
+	width: 100%;
+	
+
+}
+.btn_footer{
+	display: inline-block;
+	width: 3.1em;
+	margin: 0.5em 4.3%;
+
+	
+	padding: 0;
+	border-radius: 0.3em!important;
+	border: 1px solid #314a9c !important;
+}
+.btn_footer img{
+	width: auto !important; /*override the width below*/
+	width: 100%;
+	max-width: 100%;
+	background-color: #314a9c;
+	border-radius: 0.2em;
+
+}
+.imgLocation {
+	height: 1.46em;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #F1E5E5;
+	padding: 0.4em;
+	
+	border: 1px solid #B5B5B5;
+	border-radius: 8px;
+}
+#planifica .ui-input-search {
+	width: 73%;
+	display: inline-block;
+
+}
+.imgLocation img{
+	width: 0.8em;
+	display: inline-block;	
+    
+
+}
+.ui-content {
+	text-align: center;
+}
+
+.boton{
+
+    width: 23%;
+    margin: 0.4em auto;
+
+}
+
+.estacion {
+	width: 56%;
+	text-align: center;
+	background-color: #E93E53;
+	padding: 0.3em;
+	padding-top: 0.8em;
+	border-radius: 3px;
+	margin-top: 11px;
+	text-shadow: 0 0 2px #0E0707;
+	margin-left: .3em;
+	border: 1px solid #AC1C28;
+	margin-bottom: 0.5em;
+	font-size: 0.9em;
+}
+#destino_planificador {
+	float: right;
+	margin-right: 0.4em;
+	margin-top: 0;
+}
+.recorrido{
+	width: 100%;
+	border-bottom: 1px solid #B5B5B5;
+	clear: both;
+	margin-top: 0.1em;
+	padding: .6em;
+	
+
+}
+
+#horario_planificador {
+color: #000;
+margin-left: 0.6em;
+}
+.ruta_troncal {
+	background-color: #2900FF;
+
+	text-align: center;
+	height: 2em;
+	vertical-align: middle;
+	line-height: 2em;
+	border-radius: 8px;
+	font-size: 1.2em;
+	display: inline-block;
+	padding: 0 0.5em;
+}
+.estacion_transbordo{
+	color:black;
+}
+.tiempo_recorrido {
+	color: #000;
+	text-align: right;
+	width: 79%;
+	position: relative;
+	bottom: -18px;
+	display: inline-block;
+}
+
+#enrutador{
+	height: 20%;
+	border-bottom: 1px solid #E2E2E2;
+}
+#contenedor_recorridos{
+	height: 60%;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.ruta_troncal{
+	color:white;
+}
+#ul_listado_rutas,#ul_listado_estaciones{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.select_horizontal{
+	text-align: center;
+	border-bottom: 1px solid #E2E2E2;
+}
+.ui-input-search{
+	margin: 0 auto;
+	width: 70%;
+}
